@@ -1,0 +1,31 @@
+nav{
+    position: static;
+    width: 100%;
+    top: 0px;
+    background: rgba(255, 0, 238, 0.422);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    gap: 100px;
+}
+.NavItems a{
+    color: #ffffff;
+    font-weight:bold;
+    font-size: x-large;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img1{
+    width: 150px;
+    height: 6px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
