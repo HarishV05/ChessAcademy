@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins',sans-serif;
+  /* display: flex; */
+  justify-content: center;
+  min-height: 100vh;
+  background: url(./assets/chess.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Paytone+One:wght@400&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Nico+Moji:wght@400&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+ :root {
+   --font-montserrat: Montserrat;
+   --font-poppins: Poppins;
+   --font-nico-moji: "Nico Moji";
+   --font-paytone-one: "Paytone One";
+   --font-size-xl-9: 20.9px;
+   --secondary: #000;
+   --foundation-grey-grey-700: #3e3e3e;
+   --foundation-grey-grey-500: #575757;
+ } 
