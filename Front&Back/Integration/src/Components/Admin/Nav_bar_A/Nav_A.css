@@ -1,0 +1,79 @@
+nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background: aliceblue;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+}
+/* .navigation a{
+        position: relative;
+        font-size: 1.1em;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+} */
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navigation a::after{
+    content: '';
+    left: 0;
+    bottom: -6px;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    background: rgb(217, 0, 163);
+    border-radius: 5px;
+    transform-origin: right;
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    gap: 100px;
+    align-items: center;
+}
+nav ul li a{
+    color: #000000;
+    font-family: 'poppins';
+    font-weight: 800px;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav button {
+    width: 120px;
+    height: 50px;
+    font-family: 'Poppins',sans-serif;
+    background: transparent;
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 1.0em;
+    font-weight: 300;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.king  :hover
+{
+    background-color:azure;
+    color:rgb(217, 0, 163);
+    border-bottom:  2px solid rgb(217, 0, 163);
+
+}
